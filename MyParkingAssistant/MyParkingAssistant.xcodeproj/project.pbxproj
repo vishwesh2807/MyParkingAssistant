@@ -8,13 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		B43540A521942DDE00DDCA38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43540A421942DDE00DDCA38 /* AppDelegate.swift */; };
-		B43540A721942DDE00DDCA38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43540A621942DDE00DDCA38 /* ViewController.swift */; };
+		B43540A721942DDE00DDCA38 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43540A621942DDE00DDCA38 /* HomeViewController.swift */; };
 		B43540AA21942DDE00DDCA38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43540A821942DDE00DDCA38 /* Main.storyboard */; };
 		B43540AD21942DDE00DDCA38 /* MyParkingAssistant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B43540AB21942DDE00DDCA38 /* MyParkingAssistant.xcdatamodeld */; };
 		B43540AF21942DE000DDCA38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43540AE21942DE000DDCA38 /* Assets.xcassets */; };
 		B43540B221942DE000DDCA38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43540B021942DE000DDCA38 /* LaunchScreen.storyboard */; };
 		B43540BD21942DE000DDCA38 /* MyParkingAssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43540BC21942DE000DDCA38 /* MyParkingAssistantTests.swift */; };
 		B43540C821942DE000DDCA38 /* MyParkingAssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43540C721942DE000DDCA38 /* MyParkingAssistantUITests.swift */; };
+		B43540E02194381700DDCA38 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43540DF2194381700DDCA38 /* EndPointType.swift */; };
+		B43540E22194388800DDCA38 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43540E12194388800DDCA38 /* HTTPMethod.swift */; };
+		B43540E42194397B00DDCA38 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43540E32194397B00DDCA38 /* HTTPTask.swift */; };
+		B43540E6219439D800DDCA38 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43540E5219439D800DDCA38 /* ParameterEncoding.swift */; };
+		B43540E821943BB700DDCA38 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43540E721943BB700DDCA38 /* URLParameterEncoder.swift */; };
+		B43540EA21943F7000DDCA38 /* JSONParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43540E921943F7000DDCA38 /* JSONParameterEncoding.swift */; };
+		B43540EC2194407500DDCA38 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43540EB2194407500DDCA38 /* NetworkRouter.swift */; };
+		B43540EE2194592900DDCA38 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43540ED2194592900DDCA38 /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +45,7 @@
 /* Begin PBXFileReference section */
 		B43540A121942DDE00DDCA38 /* MyParkingAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyParkingAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43540A421942DDE00DDCA38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B43540A621942DDE00DDCA38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B43540A621942DDE00DDCA38 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B43540A921942DDE00DDCA38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B43540AC21942DDE00DDCA38 /* MyParkingAssistant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyParkingAssistant.xcdatamodel; sourceTree = "<group>"; };
 		B43540AE21942DE000DDCA38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +57,14 @@
 		B43540C321942DE000DDCA38 /* MyParkingAssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyParkingAssistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43540C721942DE000DDCA38 /* MyParkingAssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyParkingAssistantUITests.swift; sourceTree = "<group>"; };
 		B43540C921942DE000DDCA38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43540DF2194381700DDCA38 /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		B43540E12194388800DDCA38 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		B43540E32194397B00DDCA38 /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		B43540E5219439D800DDCA38 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		B43540E721943BB700DDCA38 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		B43540E921943F7000DDCA38 /* JSONParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoding.swift; sourceTree = "<group>"; };
+		B43540EB2194407500DDCA38 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		B43540ED2194592900DDCA38 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,7 @@
 		B43540A321942DDE00DDCA38 /* MyParkingAssistant */ = {
 			isa = PBXGroup;
 			children = (
+				B43540DA2194325600DDCA38 /* Networking */,
 				B43540D821942FC200DDCA38 /* CoreData */,
 				B43540D721942FAF00DDCA38 /* StoryBoards */,
 				B43540D621942F9F00DDCA38 /* Home */,
@@ -138,7 +155,7 @@
 		B43540D621942F9F00DDCA38 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				B43540A621942DDE00DDCA38 /* ViewController.swift */,
+				B43540A621942DDE00DDCA38 /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -166,6 +183,53 @@
 				B43540AB21942DDE00DDCA38 /* MyParkingAssistant.xcdatamodeld */,
 			);
 			path = DataModel;
+			sourceTree = "<group>";
+		};
+		B43540DA2194325600DDCA38 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B43540DB219437BD00DDCA38 /* EndPoint */,
+				B43540DC219437C600DDCA38 /* Manager */,
+				B43540DE219437DE00DDCA38 /* Service */,
+				B43540DD219437D400DDCA38 /* Encoding */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B43540DB219437BD00DDCA38 /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		B43540DC219437C600DDCA38 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		B43540DD219437D400DDCA38 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				B43540E5219439D800DDCA38 /* ParameterEncoding.swift */,
+				B43540E721943BB700DDCA38 /* URLParameterEncoder.swift */,
+				B43540E921943F7000DDCA38 /* JSONParameterEncoding.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		B43540DE219437DE00DDCA38 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B43540DF2194381700DDCA38 /* EndPointType.swift */,
+				B43540E12194388800DDCA38 /* HTTPMethod.swift */,
+				B43540E32194397B00DDCA38 /* HTTPTask.swift */,
+				B43540EB2194407500DDCA38 /* NetworkRouter.swift */,
+				B43540ED2194592900DDCA38 /* Router.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,9 +363,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43540EE2194592900DDCA38 /* Router.swift in Sources */,
+				B43540E821943BB700DDCA38 /* URLParameterEncoder.swift in Sources */,
+				B43540E6219439D800DDCA38 /* ParameterEncoding.swift in Sources */,
+				B43540E42194397B00DDCA38 /* HTTPTask.swift in Sources */,
+				B43540E02194381700DDCA38 /* EndPointType.swift in Sources */,
 				B43540AD21942DDE00DDCA38 /* MyParkingAssistant.xcdatamodeld in Sources */,
-				B43540A721942DDE00DDCA38 /* ViewController.swift in Sources */,
+				B43540A721942DDE00DDCA38 /* HomeViewController.swift in Sources */,
+				B43540E22194388800DDCA38 /* HTTPMethod.swift in Sources */,
+				B43540EC2194407500DDCA38 /* NetworkRouter.swift in Sources */,
 				B43540A521942DDE00DDCA38 /* AppDelegate.swift in Sources */,
+				B43540EA21943F7000DDCA38 /* JSONParameterEncoding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

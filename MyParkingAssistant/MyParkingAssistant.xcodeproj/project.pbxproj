@@ -99,13 +99,12 @@
 		B43540A321942DDE00DDCA38 /* MyParkingAssistant */ = {
 			isa = PBXGroup;
 			children = (
-				B43540A421942DDE00DDCA38 /* AppDelegate.swift */,
-				B43540A621942DDE00DDCA38 /* ViewController.swift */,
-				B43540A821942DDE00DDCA38 /* Main.storyboard */,
+				B43540D821942FC200DDCA38 /* CoreData */,
+				B43540D721942FAF00DDCA38 /* StoryBoards */,
+				B43540D621942F9F00DDCA38 /* Home */,
+				B43540D521942F7400DDCA38 /* AppDelegate */,
 				B43540AE21942DE000DDCA38 /* Assets.xcassets */,
-				B43540B021942DE000DDCA38 /* LaunchScreen.storyboard */,
 				B43540B321942DE000DDCA38 /* Info.plist */,
-				B43540AB21942DDE00DDCA38 /* MyParkingAssistant.xcdatamodeld */,
 			);
 			path = MyParkingAssistant;
 			sourceTree = "<group>";
@@ -126,6 +125,47 @@
 				B43540C921942DE000DDCA38 /* Info.plist */,
 			);
 			path = MyParkingAssistantUITests;
+			sourceTree = "<group>";
+		};
+		B43540D521942F7400DDCA38 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B43540A421942DDE00DDCA38 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B43540D621942F9F00DDCA38 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B43540A621942DDE00DDCA38 /* ViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B43540D721942FAF00DDCA38 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				B43540B021942DE000DDCA38 /* LaunchScreen.storyboard */,
+				B43540A821942DDE00DDCA38 /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		B43540D821942FC200DDCA38 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B43540D921942FD300DDCA38 /* DataModel */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		B43540D921942FD300DDCA38 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				B43540AB21942DDE00DDCA38 /* MyParkingAssistant.xcdatamodeld */,
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
